@@ -20,7 +20,6 @@ def read_coordinate_file(fname, object_name):
 
 def read_ifu_data(fname):
     wavelength = np.linspace(-10000, 10000, 3975)
-    return fits.open(fname)[0].data
     return wavelength, random.random((3975, 38, 25))
     
 

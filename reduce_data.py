@@ -24,7 +24,13 @@ def read_ifu_data(fname):
     
 
 def extract_spectrum_ifu(data_cube, object_x, object_y):
+<<<<<<< Local Changes
+    # you are getting a three dimensional data_cube and the object x and y position
+    #try slicing this 
+    return data_cube[]
+=======
     return np.random.random(3975)
+>>>>>>> External Changes
 
 
 def plot_spatial_ifu(ax, data_cube, x_coordinates, y_coordinates, vmin=None, vmax=None):
@@ -36,6 +42,7 @@ def plot_spatial_ifu(ax, data_cube, x_coordinates, y_coordinates, vmin=None, vma
     
 def plot_histogram(ax, spatial_ifu):
     ax.plot([1,2,3], 'r-', lw=3)
+    #ressdlkjfldskfjsdlkfj
 
     
 def plot_spectra(ax, ifu_wavelength, object_flux, solar_wavelength=None, solar_flux=None):
